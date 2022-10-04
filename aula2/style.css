@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #DC6604;
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+
+/* HEADER */
+header, .introduçao{
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+header > nav{
+    text-align: center;
+    background-color: #FDBD06;
+    padding: 20px;
+}
+header > nav > ul > li{
+    display: inline;
+    padding: 20px;
+    border-right: 1px solid black;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.texto-cor-preta{
+    color: black;
+    font-size: 16px;
+}
+
+/* SECTION1 */
+.introducao{
+    text-align: center;
+    margin: 100px auto;
+}
+.introducao h1, .introducao h2{
+    color: #2F3030
+}
+.introducao h1{
+    font-size: 52px;
+}
+.introducao span{
+    color:#FDBD06;
+}
+
+/* CONTAINER */
+.container{
+    display: block;
+    margin-top: 20px;
+    background-color: #DC6604;
+    padding-left: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container article, aside{
+    display: inline-block;
+}
+
+/* ARTICLE */
+.container article{
+    width: 50%;
+    background-color: white;
+    padding: 20px;    
+    height: 500px;
+    float: left;
+}
+article p{
+    font-size: 20px;
+}
+
+
+.titulo{
+    margin-bottom: 30px;
+}
+
+article form button{
+    background-color: #DC6604;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 80px;
+
+}
+
+/* ASIDE */
+aside{
+    width: 30%;
+    padding: 20px;
+    height: 500px;
+    background-color: #FDBD06;
+}
+
+.sub-titulo, aside form input{
+    margin: 15px 0;
+}
+
+aside form input{
+    height: 30px;
+    width: 300px;
+    border-radius: 8px;
+    border: none;
+}
+aside nav ul li{
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+    font-size: 20px;
+}
