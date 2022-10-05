@@ -5,50 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
     <header>
-        <span>
-            <img width="80px"  src="./img/mush.png" alt="Cogumelo"> Melhores alunos do Vem Ser
-        </span>
-        
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="contato.html">Contato</a></li>
-        </ul>
+        <div>
+            <img src="./img/mush.png" alt="Cogumelo">
+            <span>Melhores alunos do Vem Ser</span>
+            <nav>   
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="./sobre.html">Sobre</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <h1>Estamos aprendendo HTML e CSS</h1>
-
-    <span>
-        <img width="120px" src="./img/mush.png" alt="Cogumelo"> Cogumelo 1
-    </span><br>
-    <span>
-        <img width="120px" src="./img/mush.png" alt="Cogumelo"> Cogumelo 2
-    </span><br>
-    <span>
-        <img width="120px" src="./img/mush.png" alt="Cogumelo"> Cogumelo 3
-    </span>
-
     
-    <article>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quis consequuntur exercitationem ut molestiae, accusamus incidunt impedit cupiditate rerum architecto quia voluptatum, corporis, quam placeat deleniti nam molestias dolore id! Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quia, quo non provident ab eius. Quaerat minus iure animi labore. Cum, atque maiores sapiente fuga dolorem error eveniet provident officiis.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, necessitatibus deleniti. Optio eveniet labore accusamus cumque ut fugiat perferendis unde esse, tempora in tempore veniam nulla itaque dignissimos dolorem iure! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod cupiditate harum dolore tempora perspiciatis porro itaque atque, nihil aliquid facere deserunt quibusdam, iste error sed, repudiandae ea odio culpa. Officia!</p>
-    </article>
 
-    <h1>Endereço da DBC</h1>
+    <section class="tres-cogumelos">
+        <h1>Estamos aprendendo HTML e CSS</h1>  
+        <span>
+            <span class="cogumelo">
+                <img src="./img/mush.png" alt="Cogumelo"> 
+                <p>Cogumelo 1</p> 
+            </span>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13821.634998705002!2d-51.2012965!3d-29.9964175!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6de693cbd6b0b5e5!2sDBC%20Company!5e0!3m2!1sen!2sbr!4v1664835371150!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <span class="cogumelo">
+                <img src="./img/mush.png" alt="Cogumelo"> 
+                <p>Cogumelo 2</p> 
+            </span>
+            <span class="cogumelo">
+                <img src="./img/mush.png" alt="Cogumelo"> 
+                <p>Cogumelo 3</p> 
+            </span>
+        </span>
+    </section>
+   
 
+    <section class="artigo">
+        <article class="fundo-cinza">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quis consequuntur exercitationem ut molestiae, accusamus incidunt impedit cupiditate rerum architecto quia voluptatum, corporis, quam placeat deleniti nam molestias dolore id! Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quia, quo non provident ab eius. Quaerat minus iure animi labore. Cum, atque maiores sapiente fuga dolorem error eveniet provident officiis.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, necessitatibus deleniti. Optio eveniet labore accusamus cumque ut fugiat perferendis unde esse, tempora in tempore veniam nulla itaque dignissimos dolorem iure! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod cupiditate harum dolore tempora perspiciatis porro itaque atque, nihil aliquid facere deserunt quibusdam, iste error sed, repudiandae ea odio culpa. Officia!</p>
+        </article>
+    </section>
+
+    <section class="endereco">
+        <h1>Endereço</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.0549630865544!2d-73.98183368434348!3d40.76081584256415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f8c26f2a2d%3A0x6e943496b4aa545d!2s1290%206th%20Ave%2C%20New%20York%2C%20NY%2010104%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1664948785013!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    
     <footer>    
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="sobre.html">Sobre</a></li>
             <li><a href="contato.html">Contato</a></li>
         </ul>
-        <address>Av. Andarai 531 - Porto Alegre</address>
+        <address>1290 6th Ave - New York</address>
     </footer>
 
 </body>

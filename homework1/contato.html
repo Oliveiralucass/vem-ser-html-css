@@ -5,49 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     
     <header>
-        <span>
-            <img width="80px"  src="./img/mush.png" alt="Cogumelo"> Melhores alunos do Vem Ser de todos os tempos
-        </span>
-        
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="contato.html">Contato</a></li>
-        </ul>
+        <div>
+            <img src="./img/mush.png" alt="Cogumelo">
+            <span>Melhores alunos do Vem Ser</span>
+            <nav>   
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="./sobre.html">Sobre</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <form>
-        <label for="name">Digite seu nome completo:</label>
-        <input type="text" name="name" placeholder="Nome Completo">
-        <br><br>
-        <label for="email">Digite seu e-mail:</label>
-        <input type="text" name="email" placeholder="E-mail">
-        <br><br>
-        <label for="select">Qual o motivo do contato?</label>
-        <select name="select">
-            <option value="">HTML é easy demais</option> 
-            <option value="JavaScript">CSS é bom</option>
-            <option value="JavaScript">JavaScript é muito bom</option>
-            <option value="JavaScript">React é íncrivel</option>
-        </select>
-        <br><br>
-        <label for="textarea">Digite sua mensagem:</label><br>
-        <textarea name="textarea" id="" placeholder="Mensagem" cols="30" rows="10"></textarea>
-        <br><br>
-        <input type="submit" name="submit" id="" value="Salvar">
-    </form>
+   <section class="formulario">
+    <h1>Contato</h1>
+        <form>
+            <div>
+                <label for="name">Digite seu nome completo:</label><br>
+                <input type="text" name="name" placeholder="Nome Completo">
+            </div>
+            
+            <div>
+                <label for="email">Digite seu e-mail:</label><br>
+                <input type="text" name="email" placeholder="E-mail">
+            </div>
+            
+            <div>
+                <label for="select">Qual o motivo do contato?</label><br>
+                <select name="select">
+                    <option value="">HTML é easy demais</option> 
+                    <option value="JavaScript">CSS é bom</option>
+                    <option value="JavaScript">JavaScript é muito bom</option>
+                    <option value="JavaScript">React é íncrivel</option>
+                </select>
+            </div>
 
+            <div>
+                <label for="textarea">Digite sua mensagem:</label><br>
+                <textarea name="textarea" id="" placeholder="Mensagem" cols="30" rows="10"></textarea>
+            </div>
+        
+            <input type="submit" name="submit" id="submit" value="Enviar">
+        </form>
+
+   </section>
+    
     <footer>    
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="sobre.html">Sobre</a></li>
             <li><a href="contato.html">Contato</a></li>
         </ul>
-        <address>Av. Andarai 531 - Porto Alegre</address>
+        <address>1290 6th Ave - New York</address>
     </footer>
 
 </body>

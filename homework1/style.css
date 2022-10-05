@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+/* HEADER */
+
+header{
+    height: 120px;
+    background-color: red;
+    text-align: center;
+    align-items: center;
+}
+
+header img{
+    display: inline;
+    width: 50px;
+    margin-top: 30px;
+    margin-right: 60px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 60px;
+}
+header div span{
+    color: white;
+}
+header nav, header ul, header li{
+    display: inline;
+}
+
+header nav, header li{
+    margin-left: 40px;
+    font-size: 18px;
+}
+header li a {
+    color: white;
+}
+
+/* SECTION 1*/
+
+section{
+    margin-top: 80px;
+}
+
+.tres-cogumelos{
+    align-items: center;
+    text-align: center;
+}
+.tres-cogumelos span{
+    display: inline-block;
+}
+.tres-cogumelos img{
+    width: 120px;
+}
+.cogumelo{
+    margin: 20px 10px;
+    border: 1px solid black;
+    padding: 60px 20px;
+    border-radius: 12px;
+}
+
+/*ARTICLE*/
+
+article{
+    padding: 30px 360px;
+    align-items: center;
+}
+.fundo-cinza{
+    background-color: grey;
+}
+
+/* ENDERECO */
+
+.endereco{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* FOOTER */
+ footer{
+    height: 100px;
+    background-color: red;
+}
+footer ul, footer address{
+    list-style: disc;
+    padding-top: 10px;
+    margin:0 360px;
+}
+footer ul, footer li a, footer address{
+    color: white;
+}
+
+
+/* SOBRE */
+
+.video-dbc{
+    text-align: center;
+}
+
+/* CONTATO */
+
+form{
+    padding: 40px;
+    border: 1px solid black;
+    border-radius: 12px;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+.formulario h1{
+    text-align: center;
+}
+
+form #submit{
+background-color: red;
+padding: 4px 12px;
+border: none;
+border-radius: 8px;
+color: white;
+}
+form div{
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+form div input, form div select, form div textarea{
+    margin-top: 12px;
+}
