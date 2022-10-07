@@ -1,0 +1,35 @@
+
+
+.container{
+    display: grid;
+    width: 300px;
+    height: 200px;
+    grid-template-columns: 1fr 1fr 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: blue;
+    gap: 10px;
+    padding: 20px;
+}
+
+
+.yellow{
+    display: grid;
+    background-color: yellow;
+    grid-column: 4;
+}
+.red{
+    display: grid;
+    grid-column: 1 / 4;
+    background-color: red;
+}
+.red-low{
+    display: grid;
+    background-color: red;
+    grid-column: 1 / 3;
+    grid-row:2 / 4
+}
+.blue{
+    display: grid;
+    grid-column: 3 / 5;
+    background-color: cornflowerblue;
+}
