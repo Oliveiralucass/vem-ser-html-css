@@ -1,0 +1,70 @@
+@import url(../style.css);
+
+
+/* HEADER */
+
+header{
+    width: 100vw;
+    height: 60px;
+    transition: all ease 0.5s;
+    position: fixed;
+    background-color: #ffffff;
+}
+.header{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    max-width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+}
+header:hover{
+    box-shadow: 0px 8px 12px rgba(9, 30, 66, 0.15), 0px 0px 1px rgba(9, 30, 66, 0.31);
+}
+.header div{
+    display: flex;
+    align-items: center;
+}
+
+/* HEADER NAV */
+.header div nav ul{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.header div nav ul li a{
+    display: flex;
+    color: var(--text-color-muted);
+    align-items: center;
+    font-size: 1rem;
+}
+.header div nav ul li a:hover{
+ color: var(--color-blue-b200)
+}
+.header-content:hover svg path, .header-content:hover a{
+    fill: var(--color-blue-b200);
+    color: var(--color-blue-b200);
+}
+
+/* HEADER LOGIN */
+.header-login{
+    display: flex;
+    gap: 24px;
+    height: 100%;
+}
+.header-login span{
+    font-size: 1.25rem;
+    color: var(--text-color-muted);
+}
+.header-login span:last-child{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: var(--color-white);
+    background-color: var(--color-blue-b200);
+    padding: 8px 24px;
+    box-sizing: border-box;
+}
+.header-login span:last-child:hover{
+    background-color: var(--color-blue-b500);
+}

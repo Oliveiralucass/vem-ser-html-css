@@ -1,0 +1,33 @@
+@import url(../style.css);
+
+.third-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    gap: 20px;
+}
+.third-section-images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.third-section-main-image{
+    max-width: 950px;
+    max-height: 667px;
+}
+.third-section h2{
+    font-size: 2.25rem;
+    line-height: 1.33;
+    font-weight: 600;
+}
+.third-section p{
+    font-size: 1.25rem; 
+    line-height: 1.5;
+}
+.third-section-images img{
+    width: 162px;
+    height: 80px;
+}

@@ -1,0 +1,50 @@
+@import url(../style.css);
+
+.sixth-section{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto 20px;
+    gap: 80px;
+}
+
+.sixth-section-signup{
+    position: relative;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(64, 50, 148), rgb(76, 154, 255)) no-repeat;
+    padding: 24px 48px;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+    gap: 20px;
+}
+.sixth-section-signup p{
+   color: var(--color-white);
+   font-size: 1.5rem;
+   font-weight: 600;
+}
+.sixth-section-signup div{
+   display: flex;
+   gap: 10px;
+}
+
+.sixth-section-signup .main-button{
+   background-color: var(--color-white);
+   outline: none;
+   color: var(--color-text-primary);
+}
+
+
+.sixth-section-mobile-ads{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.sixth-section-mobile-ads p{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+}

@@ -1,0 +1,70 @@
+@import url(../style.css);
+
+.fifth-section{
+    background-color: #E6FCFF;
+    padding: 100px 0;
+
+}
+.fifth-section-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 30px;
+}
+.carousel-index{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.carousel-dots{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.carousel-dots div:first-child{
+    width: 60px;
+    height: 10px;
+    background-color: #778DA1;
+    border-radius: 60px;
+}
+.carousel-dots span{
+    width: 10px;
+    height: 10px;
+    background-color: #122749;
+    border-radius: 100%;
+}
+.carousel-directions{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: #122749;
+    font-weight: 700;
+    padding: 0 10px;
+    background-color: var(--color-white);
+}
+.carousel-cite{
+    display: flex;
+    gap: 10px;
+}
+.carousel-cite span{
+    color: #00A3BF;
+    font-size: 4rem;
+    align-self: flex-start;
+}
+.carousel-cite p{
+    color: var(--color-text-primary);
+    font-size: 2.25rem;
+}
+
+.carousel-name{
+    display: flex;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+.carousel-name img{
+    max-width: 166px;
+    max-height: 66px;
+}

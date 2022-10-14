@@ -1,0 +1,38 @@
+@import url(../style.css);
+
+.second-section{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 150px auto;
+    padding: 50px 0;
+    border-top: 1px solid rgb(23, 43, 77,0.2);
+    border-bottom: 1px solid rgb(23, 43, 77,0.2);
+    gap: 20px;
+    
+}
+.second-section-card{
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+}
+.second-section-card img{
+    width: 64px;
+    height: auto;
+}
+
+.second-section-card h3{   
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.33;
+
+}
+.second-section-card p{   
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    max-width: 250px;
+}
+.second-section-card div button{
+    margin-top:50px;
+}

@@ -1,0 +1,43 @@
+@import url(../style.css);
+
+.first-section{
+    display: flex;
+    padding:150px 0 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 200px;
+}
+.first-content-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.first-section div:first-child{
+    width: 50%;
+    height: 320px;
+}
+.first-section div:last-child{
+    width: 25%;
+    height: 320px;
+}
+.first-content-right img{
+    width: 290px;
+    height: 381px;
+}
+.first-section div h1{
+    font-size: 3rem;
+    color: var(--text-color-primary);
+}
+.first-section div p{
+    font-size: 1.25rem;
+    color: var(--text-color-primary);
+}
+input.main-button{
+    background-color: var(--color-white);
+    outline: none;
+    color: var(--color-text-primary);
+}
+input.main-button:hover{
+    background-color: var(--color-white);
+    outline: none;
+}
